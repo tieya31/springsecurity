@@ -20,8 +20,8 @@ public class ViewController {
 
     @RequestMapping("/login")
     public String login(Model model, String username) {
-        System.out.println("naruto");
-        model.addAttribute("msgs", userService.findByUsername(username));
+        //System.out.println("naruto");
+        //model.addAttribute("msgs", userService.findByUsername(username));
         return "login";
     }
 
